@@ -23,9 +23,9 @@ pip install numpy pillow
 ## Usage
 
 ```
-python flower.py          # live animation window
-python flower.py --png    # save still frames and a stage strip
-python flower.py --gif    # save an animated GIF (sunflower.gif)
+python sunflower.py          # live animation window
+python sunflower.py --png    # save still frames and a stage strip
+python sunflower.py --gif    # save an animated GIF (sunflower.gif)
 ```
 
 Window controls:
@@ -39,7 +39,7 @@ Window controls:
 
 ## Settings
 
-Edit the constants at the top of `flower.py`:
+Edit the constants at the top of `sunflower.py`:
 
 - `SEED`: changes the random look of the plant
 - `TIME_SCALE`: speed of the animation (higher is slower)
